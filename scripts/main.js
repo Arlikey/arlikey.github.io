@@ -2,11 +2,11 @@ var image = document.querySelector("img");
 
 image.onclick = function(){
     var src = image.getAttribute("src");
-    if(src === "1_1screenshot15.png"){
-        image.setAttribute("src", "stardew.jpg");
+    if(src === "images/1_1screenshot15.png"){
+        image.setAttribute("src", "images/stardew.jpg");
     }
     else{
-        image.setAttribute("src", "1_1screenshot15.png")
+        image.setAttribute("src", "images/1_1screenshot15.png")
     }
 }
 
